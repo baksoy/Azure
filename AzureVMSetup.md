@@ -1,5 +1,12 @@
 #CREATE NETWORK RESOURCES & VIRTUAL MACHINE
 
+- Create Resource Group
+- Create Vnet
+- Create Vnet Subnet
+- Create PIP
+- Create NIC
+- Create VM
+
 ##CREATE YOUR NETWORK RESOURCES
 
 ###Setup your command line
