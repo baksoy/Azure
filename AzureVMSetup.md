@@ -66,7 +66,7 @@ Use the following command to list all possible CLI options for Subnets:
 
 Use the following command to create a subnet in your existing Virtual Network with the following options:
 
-    azure network vnet subnet create -g "CLITestGroup" --vnet-name "TestVNET" -n "TestSubnet" --address-prefix 10.0.0.1/24
+    azure network vnet subnet create -g "CLITestGroup" --vnet-name "TestVNET" -n "TestSubnet" --address-prefix 10.0.0.0/24
 
 
 View the details of your new subnet using this command:
