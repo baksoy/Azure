@@ -163,7 +163,7 @@ Use the following command to list all possible CLI options for Virtual Machine:
 
 Use the following command to create a virtual machine with the following options:
 
-    azure vm create -g "CLITestGroup" -n "TestVM" -l "West US" --nic-name "TestNIC" --os-type "Windows" --image-urn MicrosoftWindowsServer:WindowsServer:2012-R2-Datacenter:4.0.20151214 --admin-username "Attendee" --admin-password "<some-long-password>"
+   azure vm create -g "CLITestGroup" -n "TestVM" -l "West US" --nic-name "TestNIC" --os-type "Windows" --image-urn MicrosoftWindowsServer:WindowsServer:2012-R2-Datacenter:4.0.20151214 --admin-username "Attendee" --admin-password "#1AzurePro$"
 
     Note: It can take anywhere from five to fifteen minutes for your virtual machine to be created and ready for use.
 
