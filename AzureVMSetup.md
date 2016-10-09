@@ -14,7 +14,7 @@ Connect to Your Azure Subscription
     azure login => starts the interactive login and authenticates your command line
 
 
-###Create a Resource Group:
+###Create a Resource Group
 
 Use the following command to list all possible CLI options for Resource Groups:
 
@@ -31,7 +31,7 @@ Use the following command to show the details of your resource group:
     azure group show -n “CLITestGroup”
 
 
-###Create a Virtual Network:
+###Create a Virtual Network
 
 Use the following command to list all possible CLI options for network components in Azure:
 
@@ -57,7 +57,7 @@ View the details of your new virtual network using this command:
 
     azure network vnet show –g “CLITestGroup” –n “TestVNET”
 
-###Create a SuBNET:
+###Create a SuBNET
 
 Use the following command to list all possible CLI options for Subnets:
 
