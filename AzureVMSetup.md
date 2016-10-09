@@ -85,8 +85,8 @@ Use the following command to create a new public IP address in your resource gro
 
 
 Update the public IP address by giving it a unique domain name label. This name must be globally unique in Azure, only consist of alphabetic characters, and is recommended to be at-least 8 characters:
-This label will be used to construct the url for yoru virtual machine. 
-If your domain name is demoexample then youd domain name will end up being 
+This label will be used to construct the url for your virtual machine. 
+If your domain name is demoexample then your domain name will end up being 
 demoexample.westus.cloudapp.azure.com
 
     azure network public-ip set -g "CLITestGroup" -n "TestPIP" --domain-name-label "demoexample"
